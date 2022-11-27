@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "bilibili fast3",
+  "description": "fast develop crx for demo",
+  "version": "1.0.0",
+  "author": "liushipeng",
+  "icons": {
+    "48": "image/icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "image/icon.png",
+    "default_title": "bilibili fast3"
+  },
+  "permissions": ["tabs", "activeTab", "scripting"]
+
+}
