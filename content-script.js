@@ -72,6 +72,9 @@ if (!window.firstLoad) {
 
   // 失去焦点停止加速
   window.addEventListener("blur", (e) => {
+
+    return;
+
     if (isStart) {
       isStartFast = false;
     }
